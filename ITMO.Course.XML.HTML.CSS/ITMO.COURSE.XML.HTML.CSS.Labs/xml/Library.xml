@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "Library_DTD.dtd">
+	<library >
+		<book_catalog>
+			<book id="a", isbn="112334;", year="2020", issue="translation">
+				<authors>
+					<author>Автор книги</author>
+				</authors>
+				<title>&internet;</title>
+				<publishing/>
+				<annotation/>
+			</book>
+		</book_catalog>
+		
+		<author_catalog>
+			<author_book idref="a">Автор книги</author_book> 
+		</author_catalog>
+	</library >
+	

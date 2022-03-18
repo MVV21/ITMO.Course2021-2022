@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2022/XMLSchema">
+<xs:element name = "Lessons">
+	<xs:complexType>
+		<xs:sequence>
+
+			<xs:element name = "Lesson">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Discipline_title" type="xs:string"/>
+						<xs:element name="Instructor" type="xs:string"/>
+						<xs:element name="Begin" type="xs:date"/>
+						<xs:element name="Number_of_hours" type="xs:integer"/>
+						<xs:element name="Final_score" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+		</xs:sequence>
+	</xs:complexType>	
+</xs:element>	
+</xs:schema>
+

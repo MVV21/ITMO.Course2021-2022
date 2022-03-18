@@ -1,0 +1,7 @@
+<!ELEMENT Lessons (Lesson+)>
+<!ELEMENT Lesson (Discipline_title, Instructor, Begin, Number_of_hours, Final_score)> 
+<!ELEMENT Discipline_title (#PCDATA)> 
+<!ELEMENT Instructor (#PCDATA)> 
+<!ELEMENT Begin (#PCDATA)> 
+<!ELEMENT Number_of_hours (#PCDATA)>
+<!ELEMENT Final_score (#PCDATA)>

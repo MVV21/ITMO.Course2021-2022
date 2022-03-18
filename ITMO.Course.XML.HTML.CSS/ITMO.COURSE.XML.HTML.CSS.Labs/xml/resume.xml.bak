@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<resume>
+	<candidate id = "a">
+		<Name>Игорь</Name>
+		<LastName>Осин</LastName>
+		<PatronymicName>Аннович</PatronymicName>
+		<Age>(32)</Age>
+		<WorkPlace>ООО "ПроектПлюс"</WorkPlace>
+		<Post>менеджер по закупкам</Post>
+		<DateOfBirth>12.09.1989</DateOfBirth>
+		<Education>Полупрофессиональное </Education>
+		<Address>СПб, ул. Ленина 3-5</Address>
+		<Phone>123-45-67</Phone>
+		<FamilyStatus>холост</FamilyStatus>
+		<DesiredSalary currency = "RUR">30 000</DesiredSalary>
+	</candidate>
+	
+	<candidate id = "b">
+		<Name>Иван</Name>
+		<LastName>Чимбокляуз</LastName>
+		<PatronymicName>Петрович</PatronymicName>
+		<Age>(40)</Age>
+		<WorkPlace>ООО "РусьСвет"</WorkPlace>
+		<Post>экономист</Post>
+		<DateOfBirth>02.01.1982</DateOfBirth>
+		<Education>Высшее </Education>
+		<Address>СПб, Серпуховская 13-9</Address>
+		<Phone>987-65-54</Phone>
+		<FamilyStatus>холост</FamilyStatus>
+		<DesiredSalary currency = "RUR">150 000</DesiredSalary>
+	</candidate>
+	
+	<candidate id = "c">
+		<Name>Ева</Name>
+		<LastName>Яблокова</LastName>
+		<PatronymicName>Адамовна</PatronymicName>
+		<Age>(49)</Age>	
+		<WorkPlace>ООО "Строй"</WorkPlace>
+		<Post>менеджер по продажам</Post>
+		<DateOfBirth>19.12.1972</DateOfBirth>
+		<Education>Среднее</Education>
+		<Address>СПб, Дбуновская 12-4</Address>
+		<Phone>122-33-44</Phone>
+		<FamilyStatus>замужем</FamilyStatus>
+		<DesiredSalary currency = "RUR">95 000</DesiredSalary>
+	</candidate>
+</resume>
