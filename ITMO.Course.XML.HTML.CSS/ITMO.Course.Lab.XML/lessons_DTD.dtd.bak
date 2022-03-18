@@ -1,0 +1,7 @@
+<!ELEMENT TimeTable (item+)>
+<!ELEMENT item (name, teacher, begin, end, description)> 
+<!ELEMENT Discipline_title (#PCDATA)> 
+<!ELEMENT Instructor (#PCDATA)> 
+<!ELEMENT Begin (#PCDATA)> 
+<!ELEMENT Number_of_hours (#PCDATA)>
+<!ELEMENT Final_score (#PCDATA)>
