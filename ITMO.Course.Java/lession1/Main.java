@@ -17,8 +17,8 @@ public class Main {
         System.out.println(29.0 * 4 * (-15));
 //3
         System.out.println("-----3-----");
-        double number = 10500;
-        double result = (double) ((number / 10) / 10);
+        int number = 10500;
+        double result = (number / 10.0) / 10;
         System.out.println(result);
 //4
         System.out.println("-----4-----");
