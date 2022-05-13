@@ -13,12 +13,12 @@ public class Main {
         System.out.println("Java");
 //2
         System.out.println("-----2-----");
-        System.out.println((int)((46 + 10) * (10 / 3)));
-        System.out.println((int)(29*4*(-15)));
+        System.out.println((46 + 10) * (10.0 / 3));
+        System.out.println(29.0 * 4 * (-15));
 //3
         System.out.println("-----3-----");
         int number = 10500;
-        double result = (number / 10) / 10;
+        double result = (double) ((number / 10) / 10);
         System.out.println(result);
 //4
         System.out.println("-----4-----");
@@ -28,11 +28,11 @@ public class Main {
         System.out.println("-----5-----");
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите первое число:");
-        String first = scan.next();
+        int first = scan.nextInt();
         System.out.println("Введите второе число:");
-        String second = scan.next();
+        int second = scan.nextInt();
         System.out.println("Введите третье число:");
-        String third = scan.next();
+        int third = scan.nextInt();
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
